@@ -320,6 +320,7 @@ section.accueil{
     background-image: url("Images/marc.png");
     background-size: cover;
 }
+
 .costomer .left .nom{
     width: 110px;
     height: 50px;
@@ -395,6 +396,7 @@ section.accueil{
     border: none;
     border: 2px solid silver;
     margin-top: 10px;
+    padding-left: 15px;
     /* box-shadow: 0 0 15px silver; */
 }
 .input-group textarea{
@@ -404,6 +406,7 @@ section.accueil{
     border: 2px solid silver;
     resize: none;
     margin-top: 10px;
+    padding-left: 15px;
 }
 .textarea{
     height: 150px;
@@ -424,6 +427,7 @@ section.accueil{
 }
 .bxs-envelope, .bxs-phone{
     font-size: 20px;
+    color: var(--Como-Green);
     
 }
 .envoie button{
@@ -434,6 +438,53 @@ section.accueil{
     color: white;
     background-color: var(--Como-Green);
     font-size: 18px;
+}
+/* footer */
+#footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 280px;
+    background-color: var(--Blue-Zodiac);
+}
+#footer .top{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 230px;
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-top: 0;
+}
+#footer .top img{
+    width: 70px;
+    height: 70px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+#footer .top .left{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    line-height:30px;
+}
+#footer .top .right{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    line-height:30px;
+}
+#footer .top .left p{
+    font-size: 20px;
+}
+
+.copy{
+    width: 100%;
+    height: 50px;
+    background-color: #38586C;
+    color: var(--white);
+    text-align: center;
+    align-content: center;
 }
 @media(max-width :1112px){
     .all-accueil .right h2,.all-accueil .right p{
@@ -828,9 +879,27 @@ section.accueil{
         height: 380px;
         margin: auto;
     }
+    /* footer */
+    #footer{
+        height: 450px;
+    }
+    #footer .top{
+        flex-direction: column;
+        height: 400px;
+    }
+
+    #footer .top img{
+        margin: auto;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    #footer .left,#footer .right  {
+        margin: auto;
+    }
     /* #contact iframe{
         width: 320px;
         margin: auto;
     } */
+    
 }
   
