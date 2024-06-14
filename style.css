@@ -133,8 +133,7 @@ section.accueil{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 100%;
-    color: yellow;
-    margin-top: 80px;
+    margin-top: 70px;
 }
 .all-accueil{
     display: flex;
@@ -154,8 +153,11 @@ section.accueil{
     border-top-left-radius: 70px;
     border-bottom-right-radius: 70px;
 } 
-.all-accueil .right h2,.all-accueil .right p{
+.all-accueil .right h2{
     font-size: 30px;
+}
+.right p{
+    font-size: 20px;
 }
 .all-accueil .button button{
     margin-top: 200px;
@@ -169,11 +171,318 @@ section.accueil{
     font-size: 25px;
     cursor: pointer;
 }
+/* Services */
+#service{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    margin-top: 30px;
+}
+#service h1{
+    text-align: center;
+    font-size: 35px;
+}
+#service h1 span{
+    color: var(--Como-Green);
+}
+#service .bottom{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 395px;
+    margin: auto;
+    margin-top: 50px;
+    gap: 70px;
+}
+#service .bottom .clients{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px;
+    margin: auto;
+}
+#service .bottom .clients img{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#service .bottom .clients h4, #service .bottom .clients p{
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 15px;
+    line-height: 23px;
+}
+/* apropos */
+#apropos{
+    width: 90%;
+    margin: auto;
+    height: 450px;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+}
+#apropos h1{
+    text-align: center;
+    font-size: 35px;
+}
+#apropos h1 span{
+    color: var(--Como-Green);
+}
+#apropos .bottom{
+    display: flex;
+    width: 90%;
+    height: 360px;
+    margin: auto;
+    /* border: 2px solid black; */
+    margin-top: 30px;
+    justify-content: space-between;
+}
+#apropos .bottom .right{
+    width: 450px;
+    height: 300px;
+    /* border: 2px solid black; */
+    margin-top: 50px;
+}
+#apropos .bottom .left{
+    width: 450px;
+    height: 300px;
+    /* margin: auto; */
+    border-radius: 20px;
+    background-image: url("Images/equipe.jpeg");
+    background-size: cover;
+    margin-top: 50px;
+}
+#apropos .bottom .right p{
+    line-height: 35px;
+    font-size: 20px;
+    padding: 20px 0;
+}
+/* avis-client */
+#avis-client{
+    height: 350px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+#avis-client h1{
+    text-align: center;
+    font-size: 35px;
+}
+#avis-client h1 span{
+    color: var(--Como-Green);
+}
+#avis-client .bottom{
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 90%; */
+    height: 300px;
+    /* margin: auto; */
+    margin-top: 50px;
+    /* border: 2px solid black; */
+    justify-content: space-around;
+}
+#avis-client .bottom .costomer{
+    width: 320px;
+    height: 200px;
+    /* border: 2px solid black; */
+    display: flex;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.costomer .left{
+    display: flex;
+    flex-direction: column;
+    width: 110px;
+    height: 200px;
+    border-top-left-radius: 30px;
+}
+.costomer .left .img1{
+    width: 110px;
+    height: 150px;
+    border-top-left-radius: 45px;
+    background-image: url("Images/ba.png");
+    background-size: cover;
+}
+.costomer .left .img2{
+    width: 110px;
+    height: 150px;
+    border-top-left-radius: 45px;
+    background-image: url("Images/vitoria.png");
+    background-size: cover;
+}
+.costomer .left .img3{
+    width: 110px;
+    height: 150px;
+    border-top-left-radius: 45px;
+    background-image: url("Images/marc.png");
+    background-size: cover;
+}
+.costomer .left .nom{
+    width: 110px;
+    height: 50px;
+    background-color: var(--Como-Green);
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+.costomer .right{
+    padding-top: 25px;
+    padding-left: 10px;
+    width: 210px;
+    height: 200px;
+    /* border: 2px solid black; */
+    border-bottom-right-radius: 50px;
+    background-color: var(--Blue-Zodiac);
+}
+.costomer .right .bxs-star{
+    color: var(--Asparagus);
+    font-size: 20px;
+}
+.costomer .right p{
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 10px;
+    margin-top: 15px;
+}
 
+/* contact */
+#contact{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    margin-top: 30px;
+    border: 2px solid black;
+}
+#contact h1{
+    text-align: center;
+    font-size: 35px;
+}
+#contact h1 span{
+    color: var(--Como-Green);
+}
+#contact .bottom{
+    display: flex;
+    width: 90%;
+    height: 450px;
+    border: 2px solid black;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+#contact form{
+    width: 45%;
+    height: 400px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
 
-@media(max-width :1100px){
+#contact iframe{
+    margin-top: 20px;
+}
+@media(max-width :1112px){
     .all-accueil .right h2,.all-accueil .right p{
         font-size: 20px;
+    }
+    #service .bottom .clients{
+        width: 190px;
+        height: 300px;
+    }
+    #service .bottom .clients img{
+        width: 120px;
+        height: 120px;
+    }
+    #service .bottom .clients h4, #service .bottom .clients p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    /* a propos */
+    #apropos .bottom .right{
+        width: 340px;
+        height: 280px;
+    }
+    #apropos .bottom .left{
+        width: 380px;
+        height: 280px;
+        background-size: cover;
+        background-position: 100%;
+    }
+    #apropos .bottom .right p{
+        line-height: 30px;
+        font-size: 15px;
+    }
+    /* client */
+    #avis-client h1{
+        font-size: 30px;
+    }
+    #avis-client .bottom .costomer{
+        width: 230px;
+        height: 150px;
+        /* display: flex;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px; */
+    }
+    .costomer .left{
+        /* display: flex;
+        flex-direction: column; */
+        width: 90px;
+        height: 150px;
+        /* border-top-left-radius: 30px; */
+    }
+    .costomer .left .img1{
+        width: 90px;
+        height: 150px;
+        /* border-top-left-radius: 45px;
+        background-image: url("Images/ba.png");
+        background-size: cover; */
+    }
+    .costomer .left .img2{
+        width: 90px;
+        height: 150px;
+        /* border-top-left-radius: 45px;
+        background-image: url("Images/vitoria.png");
+        background-size: cover; */
+    }
+    .costomer .left .img3{
+        width: 90px;
+        height: 150px;
+        /* border-top-left-radius: 45px;
+        background-image: url("Images/marc.png");
+        background-size: cover;
+        border: 2px solid yellow; */
+    }
+    .costomer .left .nom{
+        width: 90px;
+        height: 60px;
+        /* background-color: var(--Como-Green);
+        color: white;
+        text-align: center;
+        align-content: center;
+        border: 2px solid yellow; */
+        font-size: 12px;
+    }
+    .costomer .right{
+        /* padding-top: 25px;
+        padding-left: 10px; */
+        width: 150px;
+        height: 150px;
+        /* border: 2px solid yellow;
+        border-bottom-right-radius: 50px;
+        background-color: var(--Blue-Zodiac); */
+    }
+    .costomer .right .bxs-star{
+        color: var(--Asparagus);
+        font-size: 10px;
+    }
+    .costomer .right p{
+        color: white;
+        font-size: 10px;
+        line-height: 15px;
+        padding: 2px;
+        margin-top: 0px;
     }
 }
 @media(max-width :900px){
@@ -184,6 +493,50 @@ section.accueil{
     .all-accueil .right{
         height: 250px;
     }
+    /* service */
+    /* #service .bottom{
+        flex-direction: column;
+    } */
+    /* #service{        
+        height: 450px;
+        border: 2px solid black;
+    } */
+    #service .bottom{
+        height: 350px;
+    }
+    #service .bottom .clients{
+        width: 138px;
+        height: 250px;
+    }
+    #service .bottom .clients img{
+        width: 100px;
+        height: 100px;
+    }
+    #service .bottom .clients h4, #service .bottom .clients p{
+        font-size: 10px;
+        line-height: 14px;
+    }
+    /* a propos */
+    #apropos .bottom .right{
+        width: 250px;
+        height: 220px;
+    }
+    #apropos .bottom .left{
+        width: 300px;
+        height: 220px;
+        background-size: cover;
+        background-position: 100%;
+    }
+    #apropos .bottom .right p{
+        line-height: 25px;
+        font-size: 12px;
+    }
+    /* clients */
+    #avis-client{
+        height: 400px;
+    }
+    
+
 }
 @media(max-width :700px){
     /* header */
@@ -243,8 +596,28 @@ section.accueil{
         height: 50px;
         font-size: 15px;
     }
+    /* service */
+    #service{
+        height: 1325px;
+    }
+    #service .bottom{
+        height: 1220px;
+    }
+    #service .bottom .clients{
+        width: 250px;
+        height: 350px;
+    }
+    #service .bottom .clients img{
+        width: 150px;
+        height: 150px;
+    }
+    #service .bottom .clients h4, #service .bottom .clients p{
+        margin-bottom: 15px;
+        line-height: 23px;
+        font-size: 15px;
+    }
 }  
-@media(max-width :500px){
+@media(max-width :550px){
     header .links{
         width: 100%;
     }
@@ -264,5 +637,96 @@ section.accueil{
     .all-accueil .right h2{
         font-size: 20px;
     }
+    /* a propos */
+    #apropos{
+        height: 594px;
+    }
+    #apropos .bottom{
+        flex-direction: column;
+        height: 520px;
+        align-items: center;
+    }
+    #apropos .bottom .right{
+        margin-top: 0;
+        order: 2;
+        width: 350px;
+    }
+    #apropos .bottom .right p{
+        font-size: 16px;
+        padding: 0;
+    }
+    #apropos h1{
+        font-size: 25px;
+    }
+    /* avis-client */
+    #avis-client{
+        height: 770px;
+    }
+    #avis-client .bottom .costomer{
+        width: 320px;
+        height: 200px;
+        /* border: 2px solid black; */
+        display: flex;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        margin-bottom: 30px;
+    }
+    .costomer .left{
+        display: flex;
+        flex-direction: column;
+        width: 110px;
+        height: 200px;
+        border-top-left-radius: 30px;
+    }
+    .costomer .left .img1{
+        width: 110px;
+        height: 150px;
+        border-top-left-radius: 45px;
+        background-image: url("Images/ba.png");
+        background-size: cover;
+    }
+    .costomer .left .img2{
+        width: 110px;
+        height: 150px;
+        border-top-left-radius: 45px;
+        background-image: url("Images/vitoria.png");
+        background-size: cover;
+    }
+    .costomer .left .img3{
+        width: 110px;
+        height: 150px;
+        border-top-left-radius: 45px;
+        background-image: url("Images/marc.png");
+        background-size: cover;
+    }
+    .costomer .left .nom{
+        width: 110px;
+        height: 50px;
+        background-color: var(--Como-Green);
+        color: white;
+        text-align: center;
+        align-content: center;
+    }
+    .costomer .right{
+        padding-top: 25px;
+        padding-left: 10px;
+        width: 210px;
+        height: 200px;
+        /* border: 2px solid black; */
+        border-bottom-right-radius: 50px;
+        background-color: var(--Blue-Zodiac);
+    }
+    .costomer .right .bxs-star{
+        color: var(--Asparagus);
+        font-size: 20px;
+    }
+    .costomer .right p{
+        color: white;
+        font-size: 12px;
+        line-height: 20px;
+        padding: 10px;
+        margin-top: 15px;
+    }
+    
 }
   
