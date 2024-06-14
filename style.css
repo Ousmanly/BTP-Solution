@@ -419,6 +419,8 @@ section.accueil{
 
 #contact iframe{
     margin-top: 20px;
+    width:400px;
+    height:400px;
 }
 .bxs-envelope, .bxs-phone{
     font-size: 20px;
