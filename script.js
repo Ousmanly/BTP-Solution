@@ -15,7 +15,7 @@ myForm.addEventListener('submit', function(e) {
     }
     if (regexMessage.test(message.value) == false ) {
         let errorMessage = document.getElementById('errorMessage');
-        errorMessage.innerHTML = "Le message n'est pas invalidé";
+        errorMessage.innerHTML = "Le message est invalide";
         errorMessage.style.color= 'red';
         e.preventDefault()
     }else{
