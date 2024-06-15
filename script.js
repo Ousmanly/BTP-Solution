@@ -4,7 +4,7 @@ myForm.addEventListener('submit', function(e) {
     let nom = document.getElementById('nom');
     let regexName = /^[a-zA-Z\s]+$/;
     let message = document.getElementById('message');
-    let regexMessage = /^[a-zA-Z0-9 \-\.\,\s]+$/; 
+    let regexMessage = /^[a-zA-Z0-9\-\.\,\'\s]+$/; 
     if (regexName.test(nom.value) == false ) {
         let errorname = document.getElementById('errorname');
         errorname.innerHTML = 'Le nom est invalide'
