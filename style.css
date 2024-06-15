@@ -20,7 +20,10 @@ body{
     position: relative;
     
 }
-
+html{
+    scroll-behavior: smooth;
+    /* font-size: 62.5%; */
+}
 li{
     list-style: none;
 }
@@ -457,10 +460,11 @@ section.accueil{
     margin-top: 0;
 }
 #footer .top img{
-    width: 70px;
-    height: 70px;
+    width: 55px;
+    height: 55px;
     margin-top: 25px;
-    margin-bottom: 15px;
+    margin-left: 80px;
+    /* margin-bottom: 10px; */
 }
 #footer .top .left{
     display: flex;
@@ -472,7 +476,17 @@ section.accueil{
     margin-top: auto;
     margin-bottom: auto;
     color: white;
-    line-height:30px;
+    line-height:50px;
+}
+#footer .top .right .bx{
+    font-size: 25px;
+}
+#footer .top .right .bxl-linkedin-square{
+    color: #0076B2;
+}
+#footer .top .right .bxl-twitter{
+    color: #1D9BF0;
+    margin-left: 20px;
 }
 #footer .top .left p{
     font-size: 20px;
