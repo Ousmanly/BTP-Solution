@@ -131,7 +131,7 @@ header{
 /* accueil */
 section.accueil{
     height: 600px;
-    background-image: url('Images/hero.webp');
+    background-image: url('Images/hero.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 100%;
