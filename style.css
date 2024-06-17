@@ -53,10 +53,10 @@ header{
     margin: auto;
     background-color: var(--Blue-Zodiac);    
 }
-.logo img{
+/* .logo img{
     width: 150px;
 
-}
+} */
 .navbar .links{
     display: flex;
     gap: 2rem;
@@ -69,7 +69,7 @@ header{
 }
 .logo img{
     width: 75px;
-    height: 75px;
+    /* height: 75px; */
 }
 
 .hamburger{
