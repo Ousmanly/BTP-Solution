@@ -415,11 +415,11 @@ section.accueil{
     width:400px;
     height:400px;
 }
-.bxs-envelope, .bxs-phone{
+/* .bxs-envelope, .bxs-phone{
     font-size: 20px;
     color: var(--Como-Green);
     
-}
+} */
 /* .envoie button{
     width: 150px;
     height: 45px;
@@ -444,12 +444,11 @@ section.accueil{
     margin-top: 15px;
 }
 
-.contact-us{
+/* .contact-us{
     width: 100%;
-    /* background-color: red; */
     display: flex;
     justify-content: space-between;
-}
+} */
 /* footer */
 #footer{
     display: flex;
@@ -597,9 +596,9 @@ section.accueil{
     #contact form button{
         margin-top: 15px;
     }
-    .contact-us p{
+    /* .contact-us p{
         font-size: 13px;
-    }
+    } */
     #contact iframe{
         width: 370px;
         height: 370px;
@@ -785,10 +784,10 @@ section.accueil{
         height: 35px;
         font-size: 12px;
     } */
-    .bxs-envelope, .bxs-phone{
+    /* .bxs-envelope, .bxs-phone{
         font-size: 13px;
         
-    }
+    } */
     #contact{
         height: 450px;
     }
@@ -819,14 +818,22 @@ section.accueil{
         height: 40px;
         font-size: 14px;
     }
-    .contact-us p{
+    /* .contact-us p{
         font-size: 11px;
-    }
+    } */
     #contact .bottom{
         width: 100%;
     }
 }  
 @media(max-width :550px){
+    .navbar{
+        width: 100%;
+        padding-left: 40px;
+    }
+    .hamburger,
+    .toggle-menu{
+        margin-right: 45px;
+    }
     header .links{
         width: 100%;
         transition: 0.9s;
@@ -962,6 +969,7 @@ section.accueil{
     }
     .input-group textarea{
         height: 100px;
+        padding-top: 10px;
         /* background-color: red; */
     }
     .textarea{
@@ -971,13 +979,13 @@ section.accueil{
         width: 150px;
         height: 45px;
     }
-    .bxs-envelope, .bxs-phone{
+    /* .bxs-envelope, .bxs-phone{
         font-size: 22px;
         
-    }
-    .contact-us p{
+    } */
+    /* .contact-us p{
         font-size: 13px;
-    }
+    } */
     /* footer */
     #footer{
         height: 450px;
@@ -994,6 +1002,7 @@ section.accueil{
     }
     #footer .left,#footer .right  {
         margin: auto;
+        width: 260px;
     }
     
 }
