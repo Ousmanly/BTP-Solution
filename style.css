@@ -53,10 +53,6 @@ header{
     margin: auto;
     background-color: var(--Blue-Zodiac);    
 }
-/* .logo img{
-    width: 150px;
-
-} */
 .navbar .links{
     display: flex;
     gap: 2rem;
@@ -69,7 +65,6 @@ header{
 }
 .logo img{
     width: 75px;
-    /* height: 75px; */
 }
 
 .hamburger{
@@ -327,7 +322,6 @@ section.accueil{
     padding-left: 10px;
     width: 210px;
     height: 200px;
-    /* border: 2px solid black; */
     border-bottom-right-radius: 50px;
     background-color: var(--Blue-Zodiac);
 }
@@ -362,22 +356,17 @@ section.accueil{
     height: 455px;
     margin: auto;
     justify-content: space-between;
-    
 }
 #contact form{
     display: flex;
     flex-direction: column;
-    /* width: 40%; */
     width: 400px;
     height: 440px;
-    /* margin-top: 20px; */
-    /* background-color: yellow; */
 }
 .input-group{
     display: flex;
     flex-direction: column;
     margin-top: 10px;
-    /* background-color: red; */
 }
 .input-group input{
     width: 100%;
@@ -396,40 +385,46 @@ section.accueil{
     resize: none;
     margin-top: 10px;
     padding-left: 15px;
-    /* background-color: red; */
 }
 .textarea{
     height: 150px;
 }
-/* .envoie{
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
-} */
 
 #contact iframe{
     margin-top: 35px;
     width:400px;
     height:400px;
 }
-/* .bxs-envelope, .bxs-phone{
-    font-size: 20px;
-    color: var(--Como-Green);
+.adcont{
     
-} */
-/* .envoie button{
-    width: 150px;
-    height: 45px;
-    border-radius: 10px;
-    border: none;
-    color: white;
-    background-color: var(--Como-Green);
-    font-size: 18px;
-    cursor: pointer;
-} */
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.adcont-bottom{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height: 150px;
+    margin: auto;
+}
+.adcont-bottom .email{
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   background-color: var(--Como-Green);
+   text-align: center;
+   align-content: center;
+   margin:15px auto;
+   
+}
+.email .bx{
+    font-size: 40px;
+    color: var(--white);
+}
+.all{
+    color: var(--Como-Green);
+}
 #contact form button{
     width: 150px;
     height: 45px;
@@ -444,11 +439,11 @@ section.accueil{
     margin-top: 15px;
 }
 
-/* .contact-us{
+.contact-us{
     width: 100%;
     display: flex;
     justify-content: space-between;
-} */
+}
 /* footer */
 #footer{
     display: flex;
@@ -581,14 +576,6 @@ section.accueil{
         line-height: 15px;
         padding: 2px;
     }
-    /* contact */
-    /* .contact p{
-        font-size: 12px;
-    }
-    .envoie button{
-        width: 120px;
-        font-size: 15px;
-    } */
     #contact form{
         width: 370px;
         height: 450px;
@@ -596,9 +583,6 @@ section.accueil{
     #contact form button{
         margin-top: 15px;
     }
-    /* .contact-us p{
-        font-size: 13px;
-    } */
     #contact iframe{
         width: 370px;
         height: 370px;
@@ -644,11 +628,17 @@ section.accueil{
     }
     /* clients */
     #avis-client{
-        height: 400px;
+        height: 300px;
+    }
+    #avis-client .bottom{
+        height: 200px;
     }
     
     #contact{
         height: 450px;
+    }
+    #contact .bottom{
+        height: 350px;
     }
     #contact iframe{
         width: 300px;
@@ -658,22 +648,9 @@ section.accueil{
         width: 300px;
         height: 350px;
     }
-    /* .input-group{
-        background-color: red;
-    } */
     .input-group input{
         height: 35px;
     }
-    /* .input-group textarea{
-        width: 100%;
-        border-radius: 10px;
-        border: none;
-        border: 2px solid silver;
-        resize: none;
-        margin-top: 10px;
-        padding-left: 15px;
-        
-    } */
     .textarea{
         height: 100px;
     }
@@ -685,9 +662,23 @@ section.accueil{
         height: 40px;
     }
 }
+@media(max-width :781px){
+    #avis-client{
+        height: 435px;
+    }
+    #avis-client .bottom{
+        height: 350px;
+    }
+}
 @media(max-width :770px){
     #contact iframe{
         width: 260px;
+    }
+    #avis-client{
+        height: 435px;
+    }
+    #avis-client .bottom{
+        height: 350px;
     }
 }
 @media(max-width :730px){
@@ -706,7 +697,7 @@ section.accueil{
     #contact iframe{
         width: 240px;
     }
-    
+   
 }
 @media(max-width :700px){
     /* header */
@@ -775,19 +766,6 @@ section.accueil{
         line-height: 23px;
         font-size: 15px;
     }
-
-    /* .contact p{
-        font-size: 8px;
-    }
-    .envoie button{
-        width: 90px;
-        height: 35px;
-        font-size: 12px;
-    } */
-    /* .bxs-envelope, .bxs-phone{
-        font-size: 13px;
-        
-    } */
     #contact{
         height: 450px;
     }
@@ -799,9 +777,6 @@ section.accueil{
         width: 250px;
         height: 320px;
     }
-    /* .input-group{
-        background-color: red;
-    } */
     .input-group input{
         height: 30px;
         border-radius: 5px;
@@ -818,12 +793,20 @@ section.accueil{
         height: 40px;
         font-size: 14px;
     }
-    /* .contact-us p{
-        font-size: 11px;
-    } */
     #contact .bottom{
         width: 100%;
     }
+    .adcont-bottom .email{
+        width: 65px;
+        height: 65px;
+        
+     }
+     .email .bx{
+        font-size: 35px;
+     }
+     .all h2{
+        font-size: 18px;
+     }
 }  
 @media(max-width :550px){
     .navbar{
@@ -885,61 +868,36 @@ section.accueil{
     #avis-client .bottom .costomer{
         width: 300px;
         height: 180px;
-        /* display: flex;
-        border-top-left-radius: 50px;
-        border-bottom-right-radius: 50px; */
         margin-bottom: 30px;
     }
     .costomer .left{
-        /* display: flex;
-        flex-direction: column; */
         width: 100px;
         height: 180px;
-        /* border-top-left-radius: 30px; */
     }
     .costomer .left .img1{
         width: 100px;
         height: 150px;
-        /* border-top-left-radius: 45px;
-        background-image: url("Images/ba.png");
-        background-size: cover; */
     }
     .costomer .left .img2{
         width: 100px;
         height: 150px;
-        /* border-top-left-radius: 45px;
-        background-image: url("Images/vitoria.png");
-        background-size: cover; */
     }
     .costomer .left .img3{
         width: 100px;
         height: 150px;
-        /* border-top-left-radius: 45px;
-        background-image: url("Images/marc.png");
-        background-size: cover; */
     }
     .costomer .left .nom{
         width: 100px;
         height: 50px;
-        /* background-color: var(--Como-Green);
-        color: white;
-        text-align: center;
-        align-content: center; */
     }
     .costomer .right{
-        /* padding-top: 25px;
-        padding-left: 10px; */
         width: 200px;
         height: 180px;
-        /* border-bottom-right-radius: 50px;
-        background-color: var(--Blue-Zodiac); */
     }
     .costomer .right .bxs-star{
-        /* color: var(--Asparagus); */
         font-size: 20px;
     }
     .costomer .right p{
-        /* color: white; */
         font-size: 12px;
         line-height: 18px;
         padding: 10px;
@@ -951,13 +909,6 @@ section.accueil{
         flex-direction: column;
         height: 950px;
     }
-    /* .contact p{
-        font-size: 12px;
-    }
-    .envoie button{
-        width: 120px;
-        font-size: 15px;
-    } */
     #contact .bottom form, #contact iframe{
         width: 320px;
         height: 450px;
@@ -970,7 +921,6 @@ section.accueil{
     .input-group textarea{
         height: 100px;
         padding-top: 10px;
-        /* background-color: red; */
     }
     .textarea{
         height: 150px;
@@ -979,14 +929,19 @@ section.accueil{
         width: 150px;
         height: 45px;
     }
-    /* .bxs-envelope, .bxs-phone{
-        font-size: 22px;
-        
-    } */
-    /* .contact-us p{
-        font-size: 13px;
-    } */
-    /* footer */
+    .adcont{
+        height: 285px;
+    }
+    .adcont-bottom{
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+    }
+    .all{
+        height: fit-content;
+        width: fit-content;
+        margin: auto;
+    }
     #footer{
         height: 450px;
     }
