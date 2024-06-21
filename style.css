@@ -163,7 +163,8 @@ section.accueil{
     width: 294px;
     height: 60px;
     color: white;
-    background-color: var(--Como-Green);
+    font-weight: bold;
+    background-color: var(--Blue-Zodiac);
     border: none;
     border-radius: 20px;
     font-size: 25px;
@@ -320,6 +321,7 @@ section.accueil{
     height: 50px;
     background-color: var(--Como-Green);
     color: white;
+    font-weight: bold;
     text-align: center;
     align-content: center;
 }
@@ -428,7 +430,7 @@ section.accueil{
     font-size: 40px;
     color: var(--white);
 }
-.all h5{
+.all h4{
     color: var(--Como-Green);
     font-size: 20px;
 }
@@ -438,6 +440,7 @@ section.accueil{
     border-radius: 10px;
     border: none;
     color: white;
+    font-weight: bold;
     background-color: var(--Como-Green);
     font-size: 18px;
     cursor: pointer;
@@ -621,6 +624,9 @@ section.accueil{
         font-size: 10px;
         line-height: 14px;
     }
+    .clients h3{
+        font-size: 10px ;
+    }
     /* a propos */
     #apropos .bottom .right{
         width: 250px;
@@ -679,6 +685,7 @@ section.accueil{
     #avis-client .bottom{
         height: 350px;
     }
+
 }
 @media(max-width :770px){
     #contact iframe{
@@ -707,7 +714,6 @@ section.accueil{
     #contact iframe{
         width: 240px;
     }
-   
 }
 @media(max-width :700px){
     /* header */
