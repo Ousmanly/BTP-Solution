@@ -18,7 +18,6 @@
 }
 body{
     position: relative;
-    
 }
 html{
     scroll-behavior: smooth;
@@ -59,14 +58,12 @@ header{
     position: absolute;
     right: 0;
 }
-
 .links{
     align-items: center;
 }
 .logo img{
     width: 75px;
 }
-
 .hamburger{
     position: relative;
     width: 30px;
@@ -315,7 +312,6 @@ section.accueil{
     background-image: url("Images/marc.png");
     background-size: cover;
 }
-
 .costomer .left .nom{
     width: 110px;
     height: 50px;
@@ -343,7 +339,6 @@ section.accueil{
     line-height: 20px;
     padding: 10px;
 }
-
 /* contact */
 #contact{
     width: 90%;
@@ -397,7 +392,6 @@ section.accueil{
 .textarea{
     height: 150px;
 }
-
 #contact iframe{
     margin-top: 35px;
     width:400px;
@@ -448,7 +442,6 @@ section.accueil{
     margin-bottom: 10px;
     margin-top: 15px;
 }
-
 .contact-us{
     width: 100%;
     display: flex;
@@ -461,7 +454,6 @@ section.accueil{
     width: 100%;
     height: 280px;
     background-color: var(--Blue-Zodiac);
-   
 }
 #footer .top{
     display: flex;
@@ -502,7 +494,6 @@ section.accueil{
 #footer .top .left p{
     font-size: 20px;
 }
-
 .copy{
     width: 100%;
     height: 50px;
@@ -978,6 +969,4 @@ section.accueil{
         margin: auto;
         width: 260px;
     }
-    
 }
-  
