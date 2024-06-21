@@ -126,7 +126,7 @@ header{
 /* accueil */
 section.accueil{
     height: 600px;
-    background-image: url('Images/hero.jpg');
+    background-image: url('Images/hero.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 100%;
@@ -243,7 +243,7 @@ section.accueil{
     width: 450px;
     height: 300px;
     border-radius: 20px;
-    background-image: url("Images/equipe.jpeg");
+    background-image: url("Images/equipe.webp");
     background-size: cover;
     margin-top: 50px;
 }
@@ -291,14 +291,14 @@ section.accueil{
     width: 110px;
     height: 150px;
     border-top-left-radius: 45px;
-    background-image: url("Images/ba.png");
+    background-image: url("Images/ba.webp");
     background-size: cover;
 }
 .costomer .left .img2{
     width: 110px;
     height: 150px;
     border-top-left-radius: 45px;
-    background-image: url("Images/vitoria.png");
+    background-image: url("Images/vitoria.webp");
     background-size: cover;
 }
 .costomer .left .img3{
