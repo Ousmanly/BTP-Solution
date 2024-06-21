@@ -122,7 +122,9 @@ header{
     transform: rotate(45deg);
     width: 30px;
 }
-
+.navbar label{
+    display: none;
+}
 /* accueil */
 section.accueil{
     height: 600px;
@@ -422,7 +424,7 @@ section.accueil{
     font-size: 40px;
     color: var(--white);
 }
-.all h5{
+.all h4{
     color: var(--Como-Green);
     font-size: 20px;
 }
