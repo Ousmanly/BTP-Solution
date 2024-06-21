@@ -422,8 +422,9 @@ section.accueil{
     font-size: 40px;
     color: var(--white);
 }
-.all{
+.all h5{
     color: var(--Como-Green);
+    font-size: 20px;
 }
 #contact form button{
     width: 150px;
