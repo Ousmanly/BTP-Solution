@@ -201,6 +201,10 @@ section.accueil{
     box-shadow: 0 0 5px;
     margin: auto;
 }
+.clients h3{
+    font-size: 17px;
+    margin: 12px auto;
+}
 #service .bottom .clients img{
     width: 150px;
     height: 150px;
@@ -520,6 +524,9 @@ section.accueil{
         font-size: 12px;
         line-height: 20px;
     }
+    .clients h3{
+        font-size: 12px;
+    }
     /* a propos */
     #apropos .bottom .right{
         width: 340px;
@@ -767,6 +774,9 @@ section.accueil{
     #service .bottom .clients h4, #service .bottom .clients p{
         margin-bottom: 15px;
         line-height: 23px;
+        font-size: 15px;
+    }
+    .clients h3{
         font-size: 15px;
     }
     #contact{
